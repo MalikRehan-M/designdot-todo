@@ -48,7 +48,7 @@ const InfiniteTodoList = () => {
             <CircularProgress isIndeterminate color="green.300" />
           </Center>
         }
-        scrollThreshold={0.9} // Set the scroll threshold to 90%
+        scrollThreshold={0.9} 
       >
         <Grid templateColumns="repeat(2, 1fr)" gap={4}>
           {filteredTodos.map((todo) => (
